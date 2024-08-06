@@ -1,0 +1,26 @@
+{
+  "name": "aspose.3d",
+  "version": "24.7.0",
+  "description": "A standalone Node.js API to create, manipulate, convert & process 3D files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "STL",
+    "RVM",
+	"OBJ",
+	"3DS",
+	"GLTF",
+    "3D",
+    "Java"
+  ],
+  "author": "Aspose",
+  "license": "End User License Agreement.html",
+  "dependencies": {
+    "java": "0.12.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
