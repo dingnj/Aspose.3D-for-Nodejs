@@ -46,5 +46,55 @@ scene.getRootNode().createChildNode(plane);
 
 scene.save("ChangePlaneOrientation.obj");
 ```
+### Customize Offset Top
+``` js
+var aspose = aspose || {};
+
+aspose.threed = require("./lib/aspose.threed");
+
+// Create a scene
+var scene = new aspose.threed.Scene();
+
+// Initialize cylinder
+var cylinder1 =new aspose.threed.Cylinder(2, 2, 10, 20, 1, false);
+
+// Set OffsetTop
+cylinder1.setOffsetTop(new aspose.threed.Vector3(5, 3, 0));
+
+// Create ChildNode
+var node1=scene.getRootNode().createChildNode(cylinder1);
+node1.getTransform().setTranslation(new aspose.threed.Vector3(10, 0, 0));
+
+// Initialize second cylinder without customized OffsetTop
+var cylinder2 =new aspose.threed.Cylinder(2, 2, 10, 20, 1, false);
+
+// Create ChildNode
+scene.getRootNode().createChildNode(cylinder2);
+
+// Save
+scene.save("CustomizedOffsetTopCylinder.obj");
+```
+
+### Working with Radius of Sphere
+``` js
+var aspose = aspose || {};
+
+aspose.threed = require("./lib/aspose.threed");
+
+ // initialize a scene
+var scene = new aspose.threed.Scene();
+
+// initialize a Sphere
+var sphere=new aspose.threed.Sphere();
+
+ // set radius
+sphere.setRadius(10);
+
+// add sphere to the scene
+scene.getRootNode().createChildNode(sphere);
+
+// save scene
+scene.save("sphere.obj");
+```
 
 [Product Page](https://products.aspose.com/3d/nodejs-java) |  [Blog](https://blog.aspose.com/category/3d/) | [API Reference](https://reference.aspose.com/3d/nodejs-java/) | [Source Code Samples](https://github.com/aspose-3d/Aspose.3D-for-Java) | [Free Support](https://forum.aspose.com/c/3d) | [Temporary License](https://purchase.aspose.com/temporary-license)
