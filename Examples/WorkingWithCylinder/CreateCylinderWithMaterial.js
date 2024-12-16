@@ -16,6 +16,6 @@ var node=scene.getRootNode().createChildNode(cylinder);
 
 //create a new material and apply it to the node
 var material = new aspose.threed.PbrMaterial();
-material.Albedo = new aspose.threed.Vector3(0, 1, 0);
+material.setAlbedo(new aspose.threed.Vector3(0, 1, 0));
 node.Material = material;
 // ExEnd:1
