@@ -97,4 +97,4 @@ scene.getRootNode().createChildNode(sphere);
 scene.save("sphere.obj");
 ```
 
-[Product Page](https://products.aspose.com/3d/nodejs-java) |  [Blog](https://blog.aspose.com/category/3d/) | [API Reference](https://reference.aspose.com/3d/nodejs-java/) | [Source Code Samples](https://github.com/aspose-3d/Aspose.3D-for-Java) | [Free Support](https://forum.aspose.com/c/3d) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/3d/nodejs-java) | [Product Documentation](https://docs.aspose.com/3d/nodejs-java/) |  [Blog](https://blog.aspose.com/category/3d/) | [API Reference](https://reference.aspose.com/3d/nodejs-java/) | [Source Code Samples](https://github.com/aspose-3d/Aspose.3D-for-Java) | [Free Support](https://forum.aspose.com/c/3d) | [Temporary License](https://purchase.aspose.com/temporary-license)
